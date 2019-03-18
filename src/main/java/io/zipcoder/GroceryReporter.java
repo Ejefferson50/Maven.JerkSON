@@ -7,6 +7,7 @@ public class GroceryReporter {
 
     public GroceryReporter(String jerksonFileName) {
         this.originalFileText = FileReader.readFile(jerksonFileName);
+
     }
 
     @Override
